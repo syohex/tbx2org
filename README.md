@@ -1,13 +1,20 @@
-** Import Eastgate tinderbox files into org-mode
+## Import Eastgate tinderbox files into org-mode
 
-A simple importer to bring in outlines created in [tinderbox](http://www.eastgate.com/Tinderbox/) into [org-mode](http://www.orgmode.org) format.
+A simple tool to convert [tinderbox](http://www.eastgate.com/Tinderbox/) outlines into [org-mode](http://www.orgmode.org) format.
 
-*** Usage
+### Usage
 
-- open an org-mode file in Emacs
-- install the package via melpa
+- install the package:
+```
+    M-x package-install RET tbx2org RET
+```
+
 - run:
 
-```scheme
-    (tbx-import-file "file-to-import.tbx")
 ```
+    M-x tbx-import-file
+```
+
+### Todo
+
+The plan is to bring in some amazing ideas from Tinderbox into org-mode, such as `prototype' support!
